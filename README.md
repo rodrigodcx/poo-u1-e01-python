@@ -1,14 +1,11 @@
-# Autograding Example: Python
-This example project is written in Python, and tested with pytest.
+# Unidade 1 - Exercício 01 - Python
+Esse exercício foi escrito em Python e testado com pytest.
 
-### The assignment
-The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+Atualmente o teste está falhando pois a saída do método está diferente do esperado.
+Conserte o método `imprime_dados_loja` em `cupom.py` para que o teste passe.
 
-### Setup command
+### Comando para configuração
 `sudo -H pip3 install pytest`
 
-### Run command
+### Comando para execução
 `pytest`
-
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
